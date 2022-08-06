@@ -16,7 +16,7 @@ struct ContentView: View {
         NavigationView {
             
             List(self.hikes, id: \.name) { hike in
-                NavigationLink(destination: Text(hike.name)) {
+                NavigationLink(destination: HikeDetail(hike: hike)) {
                     HikeCell(hike: hike)
                 }
             }

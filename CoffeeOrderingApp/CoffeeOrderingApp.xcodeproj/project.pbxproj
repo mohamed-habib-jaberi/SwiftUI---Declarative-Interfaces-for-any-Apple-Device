@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6106152A2952593500733632 /* CoffeeCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610615292952593500733632 /* CoffeeCellView.swift */; };
 		8D27BACE230CB7C3001E5D47 /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BACD230CB7C3001E5D47 /* CreateOrderResponse.swift */; };
 		8D2E8FF6230C73E800491E78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2E8FF5230C73E800491E78 /* AppDelegate.swift */; };
 		8D2E8FF8230C73E800491E78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2E8FF7230C73E800491E78 /* SceneDelegate.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		610615292952593500733632 /* CoffeeCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCellView.swift; sourceTree = "<group>"; };
 		8D27BACD230CB7C3001E5D47 /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
 		8D2E8FF2230C73E800491E78 /* CoffeeOrderingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeOrderingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2E8FF5230C73E800491E78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				8D2E9015230C885B00491E78 /* OrderListView.swift */,
 				8D9E3C992310098800E73349 /* AddCoffeeOrderView.swift */,
 				8D9E3C9B23100F7C00E73349 /* OrderTotalView.swift */,
+				610615292952593500733632 /* CoffeeCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,7 +168,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				ORGANIZATIONNAME = "Mohammad Azam";
+				ORGANIZATIONNAME = "Mohamed JABERI";
 				TargetAttributes = {
 					8D2E8FF1230C73E800491E78 = {
 						CreatedOnToolsVersion = 11.0;
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6106152A2952593500733632 /* CoffeeCellView.swift in Sources */,
 				8D2E8FF6230C73E800491E78 /* AppDelegate.swift in Sources */,
 				8D2E9016230C885B00491E78 /* OrderListView.swift in Sources */,
 				8D27BACE230CB7C3001E5D47 /* CreateOrderResponse.swift in Sources */,
@@ -291,6 +295,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -345,6 +350,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";

@@ -55,3 +55,36 @@ class UserSettings: ObservableObject {
 
 @EnvironmentObject is typically used to store global app state that needs to be shared across multiple views. For example, you might use an @EnvironmentObject to store the current user, the app's theme, or the selected language.
 
+```swift
+class UserSettings: ObservableObject {
+    @Published var isDarkMode: Bool = false
+}
+
+struct ContentView: View {
+    @EnvironmentObject var userSettings: UserSettings
+
+    var body: some View {
+        VStack {
+            Toggle(isOn: $userSettings.isDarkMode) {
+                Text("Dark Mode")
+            }
+            SettingsView()
+        }
+    }
+}
+
+struct SettingsView: View {
+    @EnvironmentObject var userSettings: UserSettings
+
+    var body: some View {
+        Form {
+            Toggle(isOn: $userSettings.isDarkMode) {
+                Text("Dark Mode")
+            }
+        }
+    }
+}
+
+let userSettings = UserSettings()
+let contentView = ContentView().environmentObject(userSettings)
+```

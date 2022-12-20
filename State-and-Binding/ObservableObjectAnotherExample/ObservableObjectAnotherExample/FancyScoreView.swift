@@ -23,7 +23,7 @@ struct FancyScoreView: View {
 #if DEBUG
 struct FancyScoreView_Previews: PreviewProvider {
     static var previews: some View {
-        FancyScoreView()
+        FancyScoreView().environmentObject(UserSettings())
     }
 }
 #endif

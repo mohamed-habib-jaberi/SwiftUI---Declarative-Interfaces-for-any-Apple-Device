@@ -10,6 +10,9 @@ Here are some common property wrappers in SwiftUI:
 # @Binding
 @Binding is used to create a reference to a @State property from another view. It allows you to pass a @State property from a parent view to a child view, so that the child view can modify the value of the property and have the changes reflected in the parent view.
 
+# ObservableObject
+ObservableObject is a protocol that allows you to store data that needs to be shared across multiple views. When the data changes, the views that are observing the object will be automatically invalidated and redrawn.
+
 # @ObservedObject
 @ObservedObject is used to store an object that conforms to the ObservableObject protocol. ObservableObject is a class that can be used to store data that needs to be shared across multiple views. When the data changes, the views that are observing the object will be automatically invalidated and redrawn.
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DEC785722F601F6002FD3E9 /* FancyScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEC785622F601F6002FD3E9 /* FancyScoreView.swift */; };
 		8DFC439B22F5FEB700EF54D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFC439A22F5FEB700EF54D6 /* AppDelegate.swift */; };
 		8DFC439D22F5FEB700EF54D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFC439C22F5FEB700EF54D6 /* SceneDelegate.swift */; };
 		8DFC439F22F5FEB700EF54D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFC439E22F5FEB700EF54D6 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8DEC785622F601F6002FD3E9 /* FancyScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyScoreView.swift; sourceTree = "<group>"; };
 		8DFC439722F5FEB600EF54D6 /* ObservableObjectAnotherExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObservableObjectAnotherExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DFC439A22F5FEB700EF54D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DFC439C22F5FEB700EF54D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				8DFC439C22F5FEB700EF54D6 /* SceneDelegate.swift */,
 				8DFC439E22F5FEB700EF54D6 /* ContentView.swift */,
 				8DFC43AE22F5FF0F00EF54D6 /* UserSettings.swift */,
+				8DEC785622F601F6002FD3E9 /* FancyScoreView.swift */,
 				8DFC43A022F5FEB900EF54D6 /* Assets.xcassets */,
 				8DFC43A522F5FEB900EF54D6 /* LaunchScreen.storyboard */,
 				8DFC43A822F5FEB900EF54D6 /* Info.plist */,
@@ -151,6 +154,7 @@
 			files = (
 				8DFC439B22F5FEB700EF54D6 /* AppDelegate.swift in Sources */,
 				8DFC43AF22F5FF0F00EF54D6 /* UserSettings.swift in Sources */,
+				8DEC785722F601F6002FD3E9 /* FancyScoreView.swift in Sources */,
 				8DFC439D22F5FEB700EF54D6 /* SceneDelegate.swift in Sources */,
 				8DFC439F22F5FEB700EF54D6 /* ContentView.swift in Sources */,
 			);

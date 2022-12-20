@@ -1,7 +1,7 @@
 //
 //  AppDelegate.swift
 //  ObservableObjectAnotherExample
-//
+
 
 import UIKit
 

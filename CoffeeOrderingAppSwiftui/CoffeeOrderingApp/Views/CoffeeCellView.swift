@@ -3,7 +3,7 @@
 //  CoffeeOrderingApp
 //
 //  Created by mohamed  habib on 20/12/2022.
-//  Copyright © 2022 Mohammad Azam. All rights reserved.
+//  Copyright © 2022 Mohammad JABERI. All rights reserved.
 //
 
 import SwiftUI

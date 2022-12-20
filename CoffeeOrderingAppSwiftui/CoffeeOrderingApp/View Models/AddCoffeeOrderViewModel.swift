@@ -32,7 +32,6 @@ class AddCoffeeOrderViewModel: ObservableObject {
         self.webservice.createCoffeeOrder(order: order) { _ in
             
         }
-       
     }
     
     private func priceForSize() -> Double {

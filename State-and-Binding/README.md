@@ -16,8 +16,36 @@ Here are some common property wrappers in SwiftUI:
 # @Published
 @Published is used to automatically send notifications when a property of an ObservableObject changes. It is typically used in conjunction with the @ObservedObject property wrapper to send notifications to views that are observing the object.
 
+# Example
+Here is an example of how you might use these property wrappers in a SwiftUI app:
+
 ```swift
-struct Person {
-    let name: String
-    let age: Int
+struct ContentView: View {
+    @ObservedObject var userSettings = UserSettings()
+
+    var body: some View {
+        VStack {
+            Toggle(isOn: $userSettings.isDarkMode) {
+                Text("Dark Mode")
+            }
+            SettingsView(userSettings: $userSettings)
+        }
+    }
 }
+
+struct SettingsView: View {
+    @Binding var userSettings: UserSettings
+
+    var body: some View {
+        Form {
+            Toggle(isOn: $userSettings.isDarkMode) {
+                Text("Dark Mode")
+            }
+        }
+    }
+}
+
+class UserSettings: ObservableObject {
+    @Published var isDarkMode: Bool = false
+}
+

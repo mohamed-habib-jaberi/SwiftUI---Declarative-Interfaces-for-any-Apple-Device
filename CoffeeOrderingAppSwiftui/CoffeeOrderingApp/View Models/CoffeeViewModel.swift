@@ -2,7 +2,6 @@
 //  CoffeeViewModel.swift
 //  CoffeeOrderingApp
 
-
 import Foundation
 
 class CoffeeListViewModel {

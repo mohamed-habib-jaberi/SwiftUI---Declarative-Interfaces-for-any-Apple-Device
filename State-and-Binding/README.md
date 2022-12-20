@@ -48,6 +48,7 @@ struct SettingsView: View {
 class UserSettings: ObservableObject {
     @Published var isDarkMode: Bool = false
 }
+```
 
 # @EnvironmentObject
 @EnvironmentObject is a property wrapper that allows you to access an object that is shared across the entire app. It is similar to @ObservedObject, but it is stored in the environment of the view hierarchy, rather than being passed down as a property. This means that it can be accessed from any view within the app, without the need to pass it down through multiple levels of the view hierarchy.

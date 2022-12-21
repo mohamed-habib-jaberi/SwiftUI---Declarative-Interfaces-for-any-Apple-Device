@@ -1,47 +1,29 @@
-# SwiftUI---Declarative-Interfaces-for-any-Apple-Device
+# SwiftUI-Property warpper
 
-#  Check out list of topics covered in the course: 
+To create a custom property wrapper in SwiftUI, you will need to define a struct that has a wrappedValue property, which is the value that the property wrapper will be wrapping. You can then define any additional properties or methods that you want the property wrapper to have.
 
-Creating and Combining Views
+Here's an example of a custom property wrapper called Uppercase that converts a string to uppercase when it is set:
 
-Building List and Navigation
+'''swift
+@propertyWrapper
+struct Uppercase {
+    var wrappedValue: String {
+        didSet {
+            wrappedValue = wrappedValue.uppercased()
+        }
+    }
+}
+'''
 
-Building Grid Layouts in SwiftUI 
+You can use the Uppercase property wrapper like this:
 
-Understanding State and Binding
+'''swift
+struct ContentView: View {
+    @Uppercase var name: String = "John"
 
-Understanding MVVM Design Pattern
+    var body: some View {
+        Text(name)
+    }
+}
 
-Implementing Weather App Using Web API 
-
-Coffee Ordering App in SwiftUI 
-
-Mastering Xcode Previews
-
-Integrating SwiftUI with UIKit Apps
-
-Building Custom Views with SwiftUI 
-
-Implementing Gestures in SwiftUI 
-
-Property Wrappers in SwiftUI 
-
-Forms
-
-Modals
-
-Integrating Core Data with SwiftUI 
-
-Integrating Core ML with SwiftUI 
-
-SwiftUI Recipes
-
-SwiftUI for All Devices
-
-SwiftUI Animations
-
-Apple Stocks App Clone
-
-NearMe App Clone
-
-Neumorphic Design in SwiftUI 
+'''

@@ -4,7 +4,7 @@ To create a custom property wrapper in SwiftUI, you will need to define a struct
 
 Here's an example of a custom property wrapper called Uppercase that converts a string to uppercase when it is set:
 
-'''swift
+```swift
 @propertyWrapper
 struct Uppercase {
     var wrappedValue: String {
@@ -13,11 +13,11 @@ struct Uppercase {
         }
     }
 }
-'''
+```
 
 You can use the Uppercase property wrapper like this:
 
-'''swift
+```swift
 struct ContentView: View {
     @Uppercase var name: String = "John"
 
@@ -26,4 +26,4 @@ struct ContentView: View {
     }
 }
 
-'''
+```

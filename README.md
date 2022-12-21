@@ -1,6 +1,6 @@
 # SwiftUI---Declarative-Interfaces-for-any-Apple-Device
 
-Check out list of topics covered in the course: 
+#  Check out list of topics covered in the course: 
 
 Creating and Combining Views
 

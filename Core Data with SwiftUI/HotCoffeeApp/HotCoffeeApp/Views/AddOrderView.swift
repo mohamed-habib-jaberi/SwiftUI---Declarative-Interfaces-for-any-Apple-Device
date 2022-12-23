@@ -29,7 +29,7 @@ struct AddOrderView: View {
             Button("Place Order") {
                 // place order
                 self.addOrderVM.saveOrder()
-               // self.isPresented = false
+                self.isPresented = false
                 
             }.padding(8)
                 .foregroundColor(Color.white)

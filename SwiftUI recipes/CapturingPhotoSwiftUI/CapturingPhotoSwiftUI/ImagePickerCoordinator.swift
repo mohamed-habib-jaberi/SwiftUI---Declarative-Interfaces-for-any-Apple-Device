@@ -8,7 +8,6 @@
 import Foundation
 import SwiftUI
 
-
 class ImagePickerCoordinator: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
     @Binding var isShown: Bool

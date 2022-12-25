@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		619CD3A32958D3950036A289 /* ContentViewSpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CD3A22958D3950036A289 /* ContentViewSpringAnimation.swift */; };
 		8D3CF4F2233539700062F14F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3CF4F1233539700062F14F /* AppDelegate.swift */; };
 		8D3CF4F4233539700062F14F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3CF4F3233539700062F14F /* SceneDelegate.swift */; };
 		8D3CF4F6233539700062F14F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3CF4F5233539700062F14F /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		619CD3A22958D3950036A289 /* ContentViewSpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewSpringAnimation.swift; sourceTree = "<group>"; };
 		8D3CF4EE233539700062F14F /* SwiftUIDefaultBasicAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDefaultBasicAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3CF4F1233539700062F14F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D3CF4F3233539700062F14F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				8D3CF4F1233539700062F14F /* AppDelegate.swift */,
 				8D3CF4F3233539700062F14F /* SceneDelegate.swift */,
 				8D3CF4F5233539700062F14F /* ContentView.swift */,
+				619CD3A22958D3950036A289 /* ContentViewSpringAnimation.swift */,
 				8D3CF4F7233539710062F14F /* Assets.xcassets */,
 				8D3CF4FC233539710062F14F /* LaunchScreen.storyboard */,
 				8D3CF4FF233539710062F14F /* Info.plist */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619CD3A32958D3950036A289 /* ContentViewSpringAnimation.swift in Sources */,
 				8D3CF4F2233539700062F14F /* AppDelegate.swift in Sources */,
 				8D3CF4F4233539700062F14F /* SceneDelegate.swift in Sources */,
 				8D3CF4F6233539700062F14F /* ContentView.swift in Sources */,

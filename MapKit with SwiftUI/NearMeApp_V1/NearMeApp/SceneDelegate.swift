@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  SwiftUIDefaultBasicAnimation
-//
-//  Created by Mohammad Azam on 9/20/19.
-//  Copyright © 2019 Mohammad Azam. All rights reserved.
-//
 
 import UIKit
 import SwiftUI
@@ -20,7 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = MyNotificationView()
+        let contentView = ContentView()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

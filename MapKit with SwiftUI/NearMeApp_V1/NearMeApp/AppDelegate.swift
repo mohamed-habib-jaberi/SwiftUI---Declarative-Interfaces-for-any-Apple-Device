@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  SwiftUIDefaultBasicAnimation
-//
-//  Created by Mohammad Azam on 9/20/19.
-//  Copyright © 2019 Mohammad Azam. All rights reserved.
-//
+
 
 import UIKit
 

@@ -7,37 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3413F82124ABA1A5005EA3BC /* StorageDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3413F80E24ABA1A3005EA3BC /* StorageDemoApp.swift */; };
-		3413F82224ABA1A5005EA3BC /* StorageDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3413F80E24ABA1A3005EA3BC /* StorageDemoApp.swift */; };
-		3413F82324ABA1A5005EA3BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3413F80F24ABA1A3005EA3BC /* ContentView.swift */; };
-		3413F82424ABA1A5005EA3BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3413F80F24ABA1A3005EA3BC /* ContentView.swift */; };
-		3413F82524ABA1A5005EA3BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3413F81024ABA1A4005EA3BC /* Assets.xcassets */; };
-		3413F82624ABA1A5005EA3BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3413F81024ABA1A4005EA3BC /* Assets.xcassets */; };
-		343FA60F24AC2DD400001764 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343FA60E24AC2DD400001764 /* SettingsView.swift */; };
-		343FA61024AC2DD400001764 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343FA60E24AC2DD400001764 /* SettingsView.swift */; };
+		343B9E0E24B135DE000C10C8 /* MoviesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B9DFB24B135DC000C10C8 /* MoviesAppApp.swift */; };
+		343B9E0F24B135DE000C10C8 /* MoviesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B9DFB24B135DC000C10C8 /* MoviesAppApp.swift */; };
+		343B9E1024B135DE000C10C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B9DFC24B135DC000C10C8 /* ContentView.swift */; };
+		343B9E1124B135DE000C10C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B9DFC24B135DC000C10C8 /* ContentView.swift */; };
+		343B9E1224B135DE000C10C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 343B9DFD24B135DE000C10C8 /* Assets.xcassets */; };
+		343B9E1324B135DE000C10C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 343B9DFD24B135DE000C10C8 /* Assets.xcassets */; };
+		343B9E1D24B136D2000C10C8 /* MovieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B9E1C24B136D2000C10C8 /* MovieStore.swift */; };
+		343B9E1E24B136D2000C10C8 /* MovieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B9E1C24B136D2000C10C8 /* MovieStore.swift */; };
+		343B9E2024B139EA000C10C8 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B9E1F24B139EA000C10C8 /* ImageLoader.swift */; };
+		343B9E2124B139EA000C10C8 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B9E1F24B139EA000C10C8 /* ImageLoader.swift */; };
+		343B9E2324B13A01000C10C8 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B9E2224B13A01000C10C8 /* URLImage.swift */; };
+		343B9E2424B13A01000C10C8 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B9E2224B13A01000C10C8 /* URLImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3413F80E24ABA1A3005EA3BC /* StorageDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageDemoApp.swift; sourceTree = "<group>"; };
-		3413F80F24ABA1A3005EA3BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3413F81024ABA1A4005EA3BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3413F81524ABA1A4005EA3BC /* StorageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3413F81824ABA1A4005EA3BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3413F81D24ABA1A5005EA3BC /* StorageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3413F81F24ABA1A5005EA3BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3413F82024ABA1A5005EA3BC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		343FA60E24AC2DD400001764 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		343B9DFB24B135DC000C10C8 /* MoviesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAppApp.swift; sourceTree = "<group>"; };
+		343B9DFC24B135DC000C10C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		343B9DFD24B135DE000C10C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		343B9E0224B135DE000C10C8 /* MoviesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		343B9E0524B135DE000C10C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		343B9E0A24B135DE000C10C8 /* MoviesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		343B9E0C24B135DE000C10C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		343B9E0D24B135DE000C10C8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		343B9E1C24B136D2000C10C8 /* MovieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
+		343B9E1F24B139EA000C10C8 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		343B9E2224B13A01000C10C8 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3413F81224ABA1A4005EA3BC /* Frameworks */ = {
+		343B9DFF24B135DE000C10C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3413F81A24ABA1A5005EA3BC /* Frameworks */ = {
+		343B9E0724B135DE000C10C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,49 +53,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3413F80824ABA1A3005EA3BC = {
+		343B9DF524B135DC000C10C8 = {
 			isa = PBXGroup;
 			children = (
-				3413F80D24ABA1A3005EA3BC /* Shared */,
-				3413F81724ABA1A4005EA3BC /* iOS */,
-				3413F81E24ABA1A5005EA3BC /* macOS */,
-				3413F81624ABA1A4005EA3BC /* Products */,
+				343B9DFA24B135DC000C10C8 /* Shared */,
+				343B9E0424B135DE000C10C8 /* iOS */,
+				343B9E0B24B135DE000C10C8 /* macOS */,
+				343B9E0324B135DE000C10C8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3413F80D24ABA1A3005EA3BC /* Shared */ = {
+		343B9DFA24B135DC000C10C8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				3413F80E24ABA1A3005EA3BC /* StorageDemoApp.swift */,
-				3413F80F24ABA1A3005EA3BC /* ContentView.swift */,
-				343FA60E24AC2DD400001764 /* SettingsView.swift */,
-				3413F81024ABA1A4005EA3BC /* Assets.xcassets */,
+				343B9DFB24B135DC000C10C8 /* MoviesAppApp.swift */,
+				343B9E1C24B136D2000C10C8 /* MovieStore.swift */,
+				343B9E1F24B139EA000C10C8 /* ImageLoader.swift */,
+				343B9E2224B13A01000C10C8 /* URLImage.swift */,
+				343B9DFC24B135DC000C10C8 /* ContentView.swift */,
+				343B9DFD24B135DE000C10C8 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		3413F81624ABA1A4005EA3BC /* Products */ = {
+		343B9E0324B135DE000C10C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3413F81524ABA1A4005EA3BC /* StorageDemo.app */,
-				3413F81D24ABA1A5005EA3BC /* StorageDemo.app */,
+				343B9E0224B135DE000C10C8 /* MoviesApp.app */,
+				343B9E0A24B135DE000C10C8 /* MoviesApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3413F81724ABA1A4005EA3BC /* iOS */ = {
+		343B9E0424B135DE000C10C8 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3413F81824ABA1A4005EA3BC /* Info.plist */,
+				343B9E0524B135DE000C10C8 /* Info.plist */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
 		};
-		3413F81E24ABA1A5005EA3BC /* macOS */ = {
+		343B9E0B24B135DE000C10C8 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				3413F81F24ABA1A5005EA3BC /* Info.plist */,
-				3413F82024ABA1A5005EA3BC /* macOS.entitlements */,
+				343B9E0C24B135DE000C10C8 /* Info.plist */,
+				343B9E0D24B135DE000C10C8 /* macOS.entitlements */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -97,13 +105,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3413F81424ABA1A4005EA3BC /* iOS */ = {
+		343B9E0124B135DE000C10C8 /* iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3413F82924ABA1A5005EA3BC /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildConfigurationList = 343B9E1624B135DE000C10C8 /* Build configuration list for PBXNativeTarget "iOS" */;
 			buildPhases = (
-				3413F81124ABA1A4005EA3BC /* Sources */,
-				3413F81224ABA1A4005EA3BC /* Frameworks */,
-				3413F81324ABA1A4005EA3BC /* Resources */,
+				343B9DFE24B135DE000C10C8 /* Sources */,
+				343B9DFF24B135DE000C10C8 /* Frameworks */,
+				343B9E0024B135DE000C10C8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -111,16 +119,16 @@
 			);
 			name = iOS;
 			productName = iOS;
-			productReference = 3413F81524ABA1A4005EA3BC /* StorageDemo.app */;
+			productReference = 343B9E0224B135DE000C10C8 /* MoviesApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3413F81C24ABA1A5005EA3BC /* macOS */ = {
+		343B9E0924B135DE000C10C8 /* macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3413F82C24ABA1A5005EA3BC /* Build configuration list for PBXNativeTarget "macOS" */;
+			buildConfigurationList = 343B9E1924B135DE000C10C8 /* Build configuration list for PBXNativeTarget "macOS" */;
 			buildPhases = (
-				3413F81924ABA1A5005EA3BC /* Sources */,
-				3413F81A24ABA1A5005EA3BC /* Frameworks */,
-				3413F81B24ABA1A5005EA3BC /* Resources */,
+				343B9E0624B135DE000C10C8 /* Sources */,
+				343B9E0724B135DE000C10C8 /* Frameworks */,
+				343B9E0824B135DE000C10C8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -128,27 +136,27 @@
 			);
 			name = macOS;
 			productName = macOS;
-			productReference = 3413F81D24ABA1A5005EA3BC /* StorageDemo.app */;
+			productReference = 343B9E0A24B135DE000C10C8 /* MoviesApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3413F80924ABA1A3005EA3BC /* Project object */ = {
+		343B9DF624B135DC000C10C8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					3413F81424ABA1A4005EA3BC = {
+					343B9E0124B135DE000C10C8 = {
 						CreatedOnToolsVersion = 12.0;
 					};
-					3413F81C24ABA1A5005EA3BC = {
+					343B9E0924B135DE000C10C8 = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
-			buildConfigurationList = 3413F80C24ABA1A3005EA3BC /* Build configuration list for PBXProject "StorageDemo" */;
+			buildConfigurationList = 343B9DF924B135DC000C10C8 /* Build configuration list for PBXProject "MoviesApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -156,61 +164,65 @@
 				en,
 				Base,
 			);
-			mainGroup = 3413F80824ABA1A3005EA3BC;
-			productRefGroup = 3413F81624ABA1A4005EA3BC /* Products */;
+			mainGroup = 343B9DF524B135DC000C10C8;
+			productRefGroup = 343B9E0324B135DE000C10C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3413F81424ABA1A4005EA3BC /* iOS */,
-				3413F81C24ABA1A5005EA3BC /* macOS */,
+				343B9E0124B135DE000C10C8 /* iOS */,
+				343B9E0924B135DE000C10C8 /* macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3413F81324ABA1A4005EA3BC /* Resources */ = {
+		343B9E0024B135DE000C10C8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3413F82524ABA1A5005EA3BC /* Assets.xcassets in Resources */,
+				343B9E1224B135DE000C10C8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3413F81B24ABA1A5005EA3BC /* Resources */ = {
+		343B9E0824B135DE000C10C8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3413F82624ABA1A5005EA3BC /* Assets.xcassets in Resources */,
+				343B9E1324B135DE000C10C8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3413F81124ABA1A4005EA3BC /* Sources */ = {
+		343B9DFE24B135DE000C10C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				343FA60F24AC2DD400001764 /* SettingsView.swift in Sources */,
-				3413F82324ABA1A5005EA3BC /* ContentView.swift in Sources */,
-				3413F82124ABA1A5005EA3BC /* StorageDemoApp.swift in Sources */,
+				343B9E1024B135DE000C10C8 /* ContentView.swift in Sources */,
+				343B9E1D24B136D2000C10C8 /* MovieStore.swift in Sources */,
+				343B9E2024B139EA000C10C8 /* ImageLoader.swift in Sources */,
+				343B9E2324B13A01000C10C8 /* URLImage.swift in Sources */,
+				343B9E0E24B135DE000C10C8 /* MoviesAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3413F81924ABA1A5005EA3BC /* Sources */ = {
+		343B9E0624B135DE000C10C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				343FA61024AC2DD400001764 /* SettingsView.swift in Sources */,
-				3413F82424ABA1A5005EA3BC /* ContentView.swift in Sources */,
-				3413F82224ABA1A5005EA3BC /* StorageDemoApp.swift in Sources */,
+				343B9E1124B135DE000C10C8 /* ContentView.swift in Sources */,
+				343B9E1E24B136D2000C10C8 /* MovieStore.swift in Sources */,
+				343B9E2124B139EA000C10C8 /* ImageLoader.swift in Sources */,
+				343B9E2424B13A01000C10C8 /* URLImage.swift in Sources */,
+				343B9E0F24B135DE000C10C8 /* MoviesAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3413F82724ABA1A5005EA3BC /* Debug */ = {
+		343B9E1424B135DE000C10C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -269,7 +281,7 @@
 			};
 			name = Debug;
 		};
-		3413F82824ABA1A5005EA3BC /* Release */ = {
+		343B9E1524B135DE000C10C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -321,7 +333,7 @@
 			};
 			name = Release;
 		};
-		3413F82A24ABA1A5005EA3BC /* Debug */ = {
+		343B9E1724B135DE000C10C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -335,15 +347,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jaberi.StorageDemo;
-				PRODUCT_NAME = StorageDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaberi.MoviesApp;
+				PRODUCT_NAME = MoviesApp;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3413F82B24ABA1A5005EA3BC /* Release */ = {
+		343B9E1824B135DE000C10C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -357,8 +369,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jaberi.StorageDemo;
-				PRODUCT_NAME = StorageDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaberi.MoviesApp;
+				PRODUCT_NAME = MoviesApp;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -366,7 +378,7 @@
 			};
 			name = Release;
 		};
-		3413F82D24ABA1A5005EA3BC /* Debug */ = {
+		343B9E1A24B135DE000C10C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -383,14 +395,14 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.16;
-				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.StorageDemo;
-				PRODUCT_NAME = StorageDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.MoviesApp;
+				PRODUCT_NAME = MoviesApp;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		3413F82E24ABA1A5005EA3BC /* Release */ = {
+		343B9E1B24B135DE000C10C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -407,8 +419,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.16;
-				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.StorageDemo;
-				PRODUCT_NAME = StorageDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.MoviesApp;
+				PRODUCT_NAME = MoviesApp;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -417,34 +429,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3413F80C24ABA1A3005EA3BC /* Build configuration list for PBXProject "StorageDemo" */ = {
+		343B9DF924B135DC000C10C8 /* Build configuration list for PBXProject "MoviesApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3413F82724ABA1A5005EA3BC /* Debug */,
-				3413F82824ABA1A5005EA3BC /* Release */,
+				343B9E1424B135DE000C10C8 /* Debug */,
+				343B9E1524B135DE000C10C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3413F82924ABA1A5005EA3BC /* Build configuration list for PBXNativeTarget "iOS" */ = {
+		343B9E1624B135DE000C10C8 /* Build configuration list for PBXNativeTarget "iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3413F82A24ABA1A5005EA3BC /* Debug */,
-				3413F82B24ABA1A5005EA3BC /* Release */,
+				343B9E1724B135DE000C10C8 /* Debug */,
+				343B9E1824B135DE000C10C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3413F82C24ABA1A5005EA3BC /* Build configuration list for PBXNativeTarget "macOS" */ = {
+		343B9E1924B135DE000C10C8 /* Build configuration list for PBXNativeTarget "macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3413F82D24ABA1A5005EA3BC /* Debug */,
-				3413F82E24ABA1A5005EA3BC /* Release */,
+				343B9E1A24B135DE000C10C8 /* Debug */,
+				343B9E1B24B135DE000C10C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3413F80924ABA1A3005EA3BC /* Project object */;
+	rootObject = 343B9DF624B135DC000C10C8 /* Project object */;
 }
